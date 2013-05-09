@@ -6,11 +6,11 @@ class DrupalGeneratorCommand(sublime_plugin.TextCommand):
     self.view.window().show_input_panel('Module Name:', '', None, None, None)
 
 #Command to Generate Module
-class DrupalGeneratorModuleCommand(sublime_plugin.TextCommand):
-  def run(self, edit, dirs):
-    self.view.window().show_input_panel('Module Name:', dirs[0], None, None, None)
+class DrupalGeneratorModuleCommand(sublime_plugin.WindowCommand):
+  def run(self, dirs):
+    self.window.show_input_panel('Module Name:', dirs[0], None, None, None)
 
 #Command to Generate Theme
-class DrupalGeneratorThemeCommand(sublime_plugin.TextCommand):
-  def run(self, edit, dirs):
-    self.view.window().show_input_panel('Theme Name:', '''', None, None, None)
+class DrupalGeneratorThemeCommand(sublime_plugin.WindowCommand):
+  def run(self, dirs):
+    self.window.show_input_panel('Theme Name:', '', None, None, None)

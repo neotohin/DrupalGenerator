@@ -1,0 +1,5 @@
+name = @{my_module}
+description = @{my_module_description}
+package = @{my_module_package}
+core = 7.x
+version = 7.x.0.1

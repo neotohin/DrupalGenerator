@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function @{my_module}_menu() {
+  /*
+   *$items['blog'] = array(
+   *  'title' => 'blogs',
+   *  'page callback' => 'blog_page',
+   *  'access arguments' => array('access content'),
+   *  'type' => MENU_SUGGESTED_ITEM,
+   *);
+   */
+  $items[''] = array(
+    'title' => '',
+    'page callback' => '',
+    'page arguments' => array(),
+    'access arguments' => array(''),
+    'type' => ,
+    'file' => ,
+  );
+
+  return $items;
+}
