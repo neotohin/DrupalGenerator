@@ -1,0 +1,5 @@
+[
+  { "caption": "New Drupal Module", "command": "drupal_generator_module", "args": { "dirs": []} },
+  { "caption": "New Drupal Theme", "command": "drupal_generator_theme", "args": { "dirs": []} },
+	{ "caption": "New Drupal Panels Layout", "command": "drupal_generator", "args": { "dirs": []} }
+]
